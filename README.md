@@ -7,3 +7,5 @@ First, you need to install node modules then you can start the project with `npm
 ### How to sort the columns
 
 You can sort the columns by clicking the `buttons` in the table headers. The first button sorts from the smallest number to the highest or from the first letter to the last letter.
+
+The building of the table's body takes around 4 seconds.

@@ -60,3 +60,7 @@ button {
 .pagination {
   margin: auto;
 }
+
+.pagination-label {
+  text-align: center;
+}

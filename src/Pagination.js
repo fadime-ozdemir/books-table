@@ -19,9 +19,12 @@ export default function Pagination({ totPages, setCurrentPage }) {
 
 
     const pages = Array.from({ length: Math.floor(totPages / 20) }).map((_, num) => <button ref={activePage} key={'pagination-' + num} onClick={(event) => handlePageChange(event)(num)} id={'page-' + num} className={num === 0 ? 'active pagination-btn flex items-center justify-center' : 'pagination-btn flex items-center justify-center'}>{num}</button>)
-    return (
+    return (<>
+        <h4 className='pagination-label'>Pages:</h4>
         <div className='flex pagination flex-wrap justify-between' style={{ width: 700 }}>
+
             {pages}
         </div>
+    </>
     )
 }

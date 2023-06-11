@@ -40,11 +40,23 @@ table {
 .items-center {
   align-items: center;
 }
+.flex-wrap {
+  flex-wrap: wrap;
+}
 
 button {
   cursor: pointer;
 }
-.active {
+.active,
+.first-pagination-btn {
   background-color: green;
   color: aliceblue;
+}
+
+.pagination-btn {
+  padding: 0.5em;
+}
+
+.pagination {
+  margin: auto;
 }
